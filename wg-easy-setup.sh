@@ -2,10 +2,10 @@
 set -euo pipefail
 
 # 1. Update & upgrade
-apt update && apt -y upgrade
+#apt update && apt -y upgrade
 
 # 2. Install prerequisites
-#apt install -y git curl
+apt install -y git curl
 
 # 3. Install Docker (engine + CLI + Compose plugin)
 curl -sSL https://get.docker.com | sh
