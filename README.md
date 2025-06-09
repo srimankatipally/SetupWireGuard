@@ -12,16 +12,25 @@ A minimal guide to install and run the `wg-easy-setup.sh` script.
 1. **Install Git**
 
    ```bash
-   sudo apt install git
+   sudo apt install -y git
    ```
+2. **Clobe Git**
 
-2. **Make the setup script executable**
+   ```bash
+   git clone https://github.com/srimankatipally/SetupWireGuard.git
+   ```
+3. **Going to folder**
+
+   ```bash
+    cd SetupWireGuard
+   ```
+4. **Make the setup script executable**
 
    ```bash
    chmod +x wg-easy-setup.sh
    ```
 
-3. **Run the setup script**
+5. **Run the setup script**
 
    ```bash
    sudo ./wg-easy-setup.sh
